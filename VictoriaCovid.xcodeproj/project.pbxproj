@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ECAAFB69F1CA2A98B0F6713 /* Pods_VictoriaCovidTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE49304A4B22CFA713037C /* Pods_VictoriaCovidTests.framework */; };
+		595BB3E22DC7CF46C2B70354 /* Pods_VictoriaCovid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7283ABD6D90D304E7740BF /* Pods_VictoriaCovid.framework */; };
 		81746F0224D2CF1F00A82DB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81746F0124D2CF1F00A82DB5 /* AppDelegate.swift */; };
 		81746F0424D2CF1F00A82DB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81746F0324D2CF1F00A82DB5 /* SceneDelegate.swift */; };
 		81746F0624D2CF1F00A82DB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81746F0524D2CF1F00A82DB5 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		81746F0E24D2CF2000A82DB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81746F0C24D2CF2000A82DB5 /* LaunchScreen.storyboard */; };
 		81746F1924D2CF2000A82DB5 /* VictoriaCovidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81746F1824D2CF2000A82DB5 /* VictoriaCovidTests.swift */; };
 		81746F2424D2CF2000A82DB5 /* VictoriaCovidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81746F2324D2CF2000A82DB5 /* VictoriaCovidUITests.swift */; };
+		8675A1A6A037F022CDC615D8 /* Pods_VictoriaCovid_VictoriaCovidUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EA6978899079E449B5A7A14 /* Pods_VictoriaCovid_VictoriaCovidUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EA6978899079E449B5A7A14 /* Pods_VictoriaCovid_VictoriaCovidUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VictoriaCovid_VictoriaCovidUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CF14CDCA426842844B537C /* Pods-VictoriaCovidTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VictoriaCovidTests.release.xcconfig"; path = "Target Support Files/Pods-VictoriaCovidTests/Pods-VictoriaCovidTests.release.xcconfig"; sourceTree = "<group>"; };
+		49ED53A68ABE0E2132709E78 /* Pods-VictoriaCovid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VictoriaCovid.debug.xcconfig"; path = "Target Support Files/Pods-VictoriaCovid/Pods-VictoriaCovid.debug.xcconfig"; sourceTree = "<group>"; };
+		5F7283ABD6D90D304E7740BF /* Pods_VictoriaCovid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VictoriaCovid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D3B2A0DE0DFEB3F1D30658 /* Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig"; path = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E801E68BAE2C04C7909DB5C /* Pods-VictoriaCovidTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VictoriaCovidTests.debug.xcconfig"; path = "Target Support Files/Pods-VictoriaCovidTests/Pods-VictoriaCovidTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81746EFE24D2CF1F00A82DB5 /* VictoriaCovid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VictoriaCovid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81746F0124D2CF1F00A82DB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81746F0324D2CF1F00A82DB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		81746F1F24D2CF2000A82DB5 /* VictoriaCovidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VictoriaCovidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81746F2324D2CF2000A82DB5 /* VictoriaCovidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoriaCovidUITests.swift; sourceTree = "<group>"; };
 		81746F2524D2CF2000A82DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875DD6A56CD4714830EB4938 /* Pods-VictoriaCovid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VictoriaCovid.release.xcconfig"; path = "Target Support Files/Pods-VictoriaCovid/Pods-VictoriaCovid.release.xcconfig"; sourceTree = "<group>"; };
+		AA9D7FE67E46C0C68E3C02B5 /* Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig"; path = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9DE49304A4B22CFA713037C /* Pods_VictoriaCovidTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VictoriaCovidTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				595BB3E22DC7CF46C2B70354 /* Pods_VictoriaCovid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ECAAFB69F1CA2A98B0F6713 /* Pods_VictoriaCovidTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8675A1A6A037F022CDC615D8 /* Pods_VictoriaCovid_VictoriaCovidUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B56CA7089EF970330B19224 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F7283ABD6D90D304E7740BF /* Pods_VictoriaCovid.framework */,
+				1EA6978899079E449B5A7A14 /* Pods_VictoriaCovid_VictoriaCovidUITests.framework */,
+				B9DE49304A4B22CFA713037C /* Pods_VictoriaCovidTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		81746EF524D2CF1F00A82DB5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				81746F1724D2CF2000A82DB5 /* VictoriaCovidTests */,
 				81746F2224D2CF2000A82DB5 /* VictoriaCovidUITests */,
 				81746EFF24D2CF1F00A82DB5 /* Products */,
+				AAF5A26881FFAAE89BF7FC44 /* Pods */,
+				4B56CA7089EF970330B19224 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,20 @@
 			path = VictoriaCovidUITests;
 			sourceTree = "<group>";
 		};
+		AAF5A26881FFAAE89BF7FC44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49ED53A68ABE0E2132709E78 /* Pods-VictoriaCovid.debug.xcconfig */,
+				875DD6A56CD4714830EB4938 /* Pods-VictoriaCovid.release.xcconfig */,
+				AA9D7FE67E46C0C68E3C02B5 /* Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig */,
+				65D3B2A0DE0DFEB3F1D30658 /* Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig */,
+				7E801E68BAE2C04C7909DB5C /* Pods-VictoriaCovidTests.debug.xcconfig */,
+				43CF14CDCA426842844B537C /* Pods-VictoriaCovidTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81746F2824D2CF2000A82DB5 /* Build configuration list for PBXNativeTarget "VictoriaCovid" */;
 			buildPhases = (
+				88501D3FCCDFFC6301552EBB /* [CP] Check Pods Manifest.lock */,
 				81746EFA24D2CF1F00A82DB5 /* Sources */,
 				81746EFB24D2CF1F00A82DB5 /* Frameworks */,
 				81746EFC24D2CF1F00A82DB5 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81746F2B24D2CF2000A82DB5 /* Build configuration list for PBXNativeTarget "VictoriaCovidTests" */;
 			buildPhases = (
+				CF2CE24B93B7EF8B07497BA6 /* [CP] Check Pods Manifest.lock */,
 				81746F1024D2CF2000A82DB5 /* Sources */,
 				81746F1124D2CF2000A82DB5 /* Frameworks */,
 				81746F1224D2CF2000A82DB5 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81746F2E24D2CF2000A82DB5 /* Build configuration list for PBXNativeTarget "VictoriaCovidUITests" */;
 			buildPhases = (
+				3860C88D6ABBA79F615D0CF1 /* [CP] Check Pods Manifest.lock */,
 				81746F1B24D2CF2000A82DB5 /* Sources */,
 				81746F1C24D2CF2000A82DB5 /* Frameworks */,
 				81746F1D24D2CF2000A82DB5 /* Resources */,
@@ -253,6 +297,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3860C88D6ABBA79F615D0CF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VictoriaCovid-VictoriaCovidUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88501D3FCCDFFC6301552EBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VictoriaCovid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF2CE24B93B7EF8B07497BA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VictoriaCovidTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		81746EFA24D2CF1F00A82DB5 /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		81746F2924D2CF2000A82DB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49ED53A68ABE0E2132709E78 /* Pods-VictoriaCovid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +564,7 @@
 		};
 		81746F2A24D2CF2000A82DB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875DD6A56CD4714830EB4938 /* Pods-VictoriaCovid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +583,7 @@
 		};
 		81746F2C24D2CF2000A82DB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E801E68BAE2C04C7909DB5C /* Pods-VictoriaCovidTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +606,7 @@
 		};
 		81746F2D24D2CF2000A82DB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43CF14CDCA426842844B537C /* Pods-VictoriaCovidTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +629,7 @@
 		};
 		81746F2F24D2CF2000A82DB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA9D7FE67E46C0C68E3C02B5 /* Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +650,7 @@
 		};
 		81746F3024D2CF2000A82DB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D3B2A0DE0DFEB3F1D30658 /* Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

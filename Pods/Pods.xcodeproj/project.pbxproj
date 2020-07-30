@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DC7393CC783B73F739E8CF58DC5167A /* Pods-VictoriaCovidTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE738A3A3C78374C436EB69B30EC7BF0 /* Pods-VictoriaCovidTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F6E49EDF5768B7947341C7322980D4 /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE763871EC633E778943E7EEA5BEE2E9 /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B014233BFD6E7C06D2734EEAC57D9A /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC0529602E34CF450D56A66D639EA6 /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m */; };
+		64387FC5796C06608A591B678C329C43 /* Pods-VictoriaCovid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9996D0EEBADF13C88E198401ED665900 /* Pods-VictoriaCovid-dummy.m */; };
+		A5CA9B65349C171BCB5C5E84AECFF2EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BCAAF8EB6FEB2FDA4FC1BCB4F333AA3A /* Pods-VictoriaCovidTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3708F11362611C86B94B3CFF9F12557D /* Pods-VictoriaCovidTests-dummy.m */; };
+		C84BB7ADFB5922438D1A758C54DB8EE5 /* Pods-VictoriaCovid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51BDD41304BE28DC90BD3E483098A1B5 /* Pods-VictoriaCovid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF119E9A84234DE36D69DD1359F2760 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FAF0EFE91AEE6F767A15B1F3C1E19BE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2865F494C1871735E7C5F8017DBF5F1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17F5A8AFB774405B4E838727188755A3;
+			remoteInfo = "Pods-VictoriaCovid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1004F5D918982C5FAEBE308A0BF6FB52 /* Pods-VictoriaCovid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VictoriaCovid.modulemap"; sourceTree = "<group>"; };
+		1571BA9D1B564423E2EF51AC7FF122B1 /* Pods-VictoriaCovid-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovid-Info.plist"; sourceTree = "<group>"; };
+		1DA3E87F89CB77B5763703BCE2C9713B /* Pods-VictoriaCovid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovid.debug.xcconfig"; sourceTree = "<group>"; };
+		272712FCD9140E9BBD76812EF108701A /* Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34701D5687847941E7518ADA695C69FB /* Pods-VictoriaCovid-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovid-acknowledgements.plist"; sourceTree = "<group>"; };
+		3708F11362611C86B94B3CFF9F12557D /* Pods-VictoriaCovidTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VictoriaCovidTests-dummy.m"; sourceTree = "<group>"; };
+		4561AACE1DB30D36D90442B83EE89F7A /* Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		51098B8981297C8C214F6358DCB894CE /* Pods-VictoriaCovid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovid.release.xcconfig"; sourceTree = "<group>"; };
+		51BDD41304BE28DC90BD3E483098A1B5 /* Pods-VictoriaCovid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VictoriaCovid-umbrella.h"; sourceTree = "<group>"; };
+		55E5E85BF849CE3BA8B6077B361CD245 /* Pods_VictoriaCovid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VictoriaCovid.framework; path = "Pods-VictoriaCovid.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C04488AAA6718A07B4C491F9F72D4E6 /* Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C9CA39E734C17B53F01C6C1C99FDEB5 /* Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist"; sourceTree = "<group>"; };
+		73CA22963925B251C19497912BDDC695 /* Pods-VictoriaCovidTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovidTests.debug.xcconfig"; sourceTree = "<group>"; };
+		887AFC3498BCE46A0330D430E5B54AF3 /* Pods-VictoriaCovidTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovidTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		889C1A6269E50AC9BB3E383048EBB8CD /* Pods_VictoriaCovidTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VictoriaCovidTests.framework; path = "Pods-VictoriaCovidTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B30B7CF7B507014D5A666DC6CF555A6 /* Pods_VictoriaCovid_VictoriaCovidUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VictoriaCovid_VictoriaCovidUITests.framework; path = "Pods-VictoriaCovid-VictoriaCovidUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9996D0EEBADF13C88E198401ED665900 /* Pods-VictoriaCovid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VictoriaCovid-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A931CADB0B45F95E58B1038713A0E753 /* Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AB577AC957A8D348F01FE6D078FF9F2F /* Pods-VictoriaCovidTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovidTests-Info.plist"; sourceTree = "<group>"; };
+		BF72AB19DE219663A3FE048DFF21847D /* Pods-VictoriaCovid-VictoriaCovidUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VictoriaCovid-VictoriaCovidUITests.modulemap"; sourceTree = "<group>"; };
+		C4B8E13F03AFFFCEB4837BB97BCACD45 /* Pods-VictoriaCovidTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VictoriaCovidTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE738A3A3C78374C436EB69B30EC7BF0 /* Pods-VictoriaCovidTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VictoriaCovidTests-umbrella.h"; sourceTree = "<group>"; };
+		DCB968DE0A5E5EAFDE3609EAFB26073D /* Pods-VictoriaCovidTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VictoriaCovidTests.modulemap"; sourceTree = "<group>"; };
+		DE763871EC633E778943E7EEA5BEE2E9 /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h"; sourceTree = "<group>"; };
+		E60E04AD5C06444C300C33D8A2945A63 /* Pods-VictoriaCovid-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VictoriaCovid-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8FC0529602E34CF450D56A66D639EA6 /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m"; sourceTree = "<group>"; };
+		ECA9B074989399E3B7F8CC0663F2A60A /* Pods-VictoriaCovidTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovidTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		643998273AA74EFBE9146E3696BBCAE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF119E9A84234DE36D69DD1359F2760 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB96B7E505FA5253BF68A0397B94609F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CA9B65349C171BCB5C5E84AECFF2EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC90BBDEF9BE807BDCEE38E805B82D57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF0EFE91AEE6F767A15B1F3C1E19BE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C2582FDD580B01995BBE9B61E57D6F /* Pods-VictoriaCovidTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB968DE0A5E5EAFDE3609EAFB26073D /* Pods-VictoriaCovidTests.modulemap */,
+				C4B8E13F03AFFFCEB4837BB97BCACD45 /* Pods-VictoriaCovidTests-acknowledgements.markdown */,
+				887AFC3498BCE46A0330D430E5B54AF3 /* Pods-VictoriaCovidTests-acknowledgements.plist */,
+				3708F11362611C86B94B3CFF9F12557D /* Pods-VictoriaCovidTests-dummy.m */,
+				AB577AC957A8D348F01FE6D078FF9F2F /* Pods-VictoriaCovidTests-Info.plist */,
+				CE738A3A3C78374C436EB69B30EC7BF0 /* Pods-VictoriaCovidTests-umbrella.h */,
+				73CA22963925B251C19497912BDDC695 /* Pods-VictoriaCovidTests.debug.xcconfig */,
+				ECA9B074989399E3B7F8CC0663F2A60A /* Pods-VictoriaCovidTests.release.xcconfig */,
+			);
+			name = "Pods-VictoriaCovidTests";
+			path = "Target Support Files/Pods-VictoriaCovidTests";
+			sourceTree = "<group>";
+		};
+		206A360112083ED37433A664CF31BEAA /* Pods-VictoriaCovid */ = {
+			isa = PBXGroup;
+			children = (
+				1004F5D918982C5FAEBE308A0BF6FB52 /* Pods-VictoriaCovid.modulemap */,
+				E60E04AD5C06444C300C33D8A2945A63 /* Pods-VictoriaCovid-acknowledgements.markdown */,
+				34701D5687847941E7518ADA695C69FB /* Pods-VictoriaCovid-acknowledgements.plist */,
+				9996D0EEBADF13C88E198401ED665900 /* Pods-VictoriaCovid-dummy.m */,
+				1571BA9D1B564423E2EF51AC7FF122B1 /* Pods-VictoriaCovid-Info.plist */,
+				51BDD41304BE28DC90BD3E483098A1B5 /* Pods-VictoriaCovid-umbrella.h */,
+				1DA3E87F89CB77B5763703BCE2C9713B /* Pods-VictoriaCovid.debug.xcconfig */,
+				51098B8981297C8C214F6358DCB894CE /* Pods-VictoriaCovid.release.xcconfig */,
+			);
+			name = "Pods-VictoriaCovid";
+			path = "Target Support Files/Pods-VictoriaCovid";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DAB2C648B811DFFFADBA2896A3353E39 /* Products */,
+				DD0649DB08D569358B95E58FB976C8D9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAB2C648B811DFFFADBA2896A3353E39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E5E85BF849CE3BA8B6077B361CD245 /* Pods_VictoriaCovid.framework */,
+				8B30B7CF7B507014D5A666DC6CF555A6 /* Pods_VictoriaCovid_VictoriaCovidUITests.framework */,
+				889C1A6269E50AC9BB3E383048EBB8CD /* Pods_VictoriaCovidTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD0649DB08D569358B95E58FB976C8D9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				206A360112083ED37433A664CF31BEAA /* Pods-VictoriaCovid */,
+				F7D982D84AD38098313DA9F2D9AB5F23 /* Pods-VictoriaCovid-VictoriaCovidUITests */,
+				01C2582FDD580B01995BBE9B61E57D6F /* Pods-VictoriaCovidTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F7D982D84AD38098313DA9F2D9AB5F23 /* Pods-VictoriaCovid-VictoriaCovidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF72AB19DE219663A3FE048DFF21847D /* Pods-VictoriaCovid-VictoriaCovidUITests.modulemap */,
+				5C04488AAA6718A07B4C491F9F72D4E6 /* Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.markdown */,
+				4561AACE1DB30D36D90442B83EE89F7A /* Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.plist */,
+				E8FC0529602E34CF450D56A66D639EA6 /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m */,
+				5C9CA39E734C17B53F01C6C1C99FDEB5 /* Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist */,
+				DE763871EC633E778943E7EEA5BEE2E9 /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h */,
+				272712FCD9140E9BBD76812EF108701A /* Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig */,
+				A931CADB0B45F95E58B1038713A0E753 /* Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig */,
+			);
+			name = "Pods-VictoriaCovid-VictoriaCovidUITests";
+			path = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0548B9875EE02099A49D8ADE38FE5C6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84BB7ADFB5922438D1A758C54DB8EE5 /* Pods-VictoriaCovid-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304BFE9F1C8738F6984575C10B7AF0D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F6E49EDF5768B7947341C7322980D4 /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47546ACA6FC0C4AFBD62AAFD24CC5AFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC7393CC783B73F739E8CF58DC5167A /* Pods-VictoriaCovidTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17F5A8AFB774405B4E838727188755A3 /* Pods-VictoriaCovid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27632E603CC53C1FF79459C5E7F5076A /* Build configuration list for PBXNativeTarget "Pods-VictoriaCovid" */;
+			buildPhases = (
+				0548B9875EE02099A49D8ADE38FE5C6C /* Headers */,
+				E65D75C6AAE662C0F8C3D8D871DBDDC8 /* Sources */,
+				BB96B7E505FA5253BF68A0397B94609F /* Frameworks */,
+				005A92155A73C117040095D4F911AACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VictoriaCovid";
+			productName = "Pods-VictoriaCovid";
+			productReference = 55E5E85BF849CE3BA8B6077B361CD245 /* Pods_VictoriaCovid.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E1C46DA27BD3C09599FCF47160FB6E5 /* Pods-VictoriaCovidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731B6F328B32D9226ED2114746C75FED /* Build configuration list for PBXNativeTarget "Pods-VictoriaCovidTests" */;
+			buildPhases = (
+				47546ACA6FC0C4AFBD62AAFD24CC5AFF /* Headers */,
+				CC7BA31DC1DE018902CDA82DF936745D /* Sources */,
+				FC90BBDEF9BE807BDCEE38E805B82D57 /* Frameworks */,
+				1691BD43575AD1047A24931DF52E0D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33412EEDB2C8ED4F4139D2999107D1B /* PBXTargetDependency */,
+			);
+			name = "Pods-VictoriaCovidTests";
+			productName = "Pods-VictoriaCovidTests";
+			productReference = 889C1A6269E50AC9BB3E383048EBB8CD /* Pods_VictoriaCovidTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9C3E1CD06AFA8573FA20D797BAC78E9 /* Pods-VictoriaCovid-VictoriaCovidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53C109D3680C6227E3053B8B0900FCD /* Build configuration list for PBXNativeTarget "Pods-VictoriaCovid-VictoriaCovidUITests" */;
+			buildPhases = (
+				304BFE9F1C8738F6984575C10B7AF0D1 /* Headers */,
+				6E2220345A81C74D9904F95E4CB33CF8 /* Sources */,
+				643998273AA74EFBE9146E3696BBCAE9 /* Frameworks */,
+				A6E7DC12523474FAF8D8984A22B74CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VictoriaCovid-VictoriaCovidUITests";
+			productName = "Pods-VictoriaCovid-VictoriaCovidUITests";
+			productReference = 8B30B7CF7B507014D5A666DC6CF555A6 /* Pods_VictoriaCovid_VictoriaCovidUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DAB2C648B811DFFFADBA2896A3353E39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17F5A8AFB774405B4E838727188755A3 /* Pods-VictoriaCovid */,
+				F9C3E1CD06AFA8573FA20D797BAC78E9 /* Pods-VictoriaCovid-VictoriaCovidUITests */,
+				7E1C46DA27BD3C09599FCF47160FB6E5 /* Pods-VictoriaCovidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		005A92155A73C117040095D4F911AACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1691BD43575AD1047A24931DF52E0D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E7DC12523474FAF8D8984A22B74CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E2220345A81C74D9904F95E4CB33CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B014233BFD6E7C06D2734EEAC57D9A /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7BA31DC1DE018902CDA82DF936745D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAAF8EB6FEB2FDA4FC1BCB4F333AA3A /* Pods-VictoriaCovidTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65D75C6AAE662C0F8C3D8D871DBDDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64387FC5796C06608A591B678C329C43 /* Pods-VictoriaCovid-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D33412EEDB2C8ED4F4139D2999107D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VictoriaCovid";
+			target = 17F5A8AFB774405B4E838727188755A3 /* Pods-VictoriaCovid */;
+			targetProxy = 2865F494C1871735E7C5F8017DBF5F1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3B75AE5503DA6FE2780EB0DE6AE887AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA3E87F89CB77B5763703BCE2C9713B /* Pods-VictoriaCovid.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VictoriaCovid/Pods-VictoriaCovid-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VictoriaCovid/Pods-VictoriaCovid.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D2758F66F55708B4F100307BDA4713C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA9B074989399E3B7F8CC0663F2A60A /* Pods-VictoriaCovidTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VictoriaCovidTests/Pods-VictoriaCovidTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VictoriaCovidTests/Pods-VictoriaCovidTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CBA76D16589A5D24447844E0025ACBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A931CADB0B45F95E58B1038713A0E753 /* Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69D49F19D15EDA666AD9B5441C6D1435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 272712FCD9140E9BBD76812EF108701A /* Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		871B6E28ABA34DAE69824AB9D22D3B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9F69FD7DCC931FB4C52C06266465A83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73CA22963925B251C19497912BDDC695 /* Pods-VictoriaCovidTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VictoriaCovidTests/Pods-VictoriaCovidTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VictoriaCovidTests/Pods-VictoriaCovidTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5BC93670A815976CE29AF254615AF7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51098B8981297C8C214F6358DCB894CE /* Pods-VictoriaCovid.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VictoriaCovid/Pods-VictoriaCovid-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VictoriaCovid/Pods-VictoriaCovid.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27632E603CC53C1FF79459C5E7F5076A /* Build configuration list for PBXNativeTarget "Pods-VictoriaCovid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B75AE5503DA6FE2780EB0DE6AE887AA /* Debug */,
+				A5BC93670A815976CE29AF254615AF7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */,
+				871B6E28ABA34DAE69824AB9D22D3B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731B6F328B32D9226ED2114746C75FED /* Build configuration list for PBXNativeTarget "Pods-VictoriaCovidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F69FD7DCC931FB4C52C06266465A83C /* Debug */,
+				4D2758F66F55708B4F100307BDA4713C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53C109D3680C6227E3053B8B0900FCD /* Build configuration list for PBXNativeTarget "Pods-VictoriaCovid-VictoriaCovidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D49F19D15EDA666AD9B5441C6D1435 /* Debug */,
+				5CBA76D16589A5D24447844E0025ACBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
