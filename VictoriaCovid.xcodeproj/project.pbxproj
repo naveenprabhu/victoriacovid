@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,12 +11,23 @@
 		595BB3E22DC7CF46C2B70354 /* Pods_VictoriaCovid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7283ABD6D90D304E7740BF /* Pods_VictoriaCovid.framework */; };
 		81746F0224D2CF1F00A82DB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81746F0124D2CF1F00A82DB5 /* AppDelegate.swift */; };
 		81746F0424D2CF1F00A82DB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81746F0324D2CF1F00A82DB5 /* SceneDelegate.swift */; };
-		81746F0624D2CF1F00A82DB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81746F0524D2CF1F00A82DB5 /* ViewController.swift */; };
+		81746F0624D2CF1F00A82DB5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81746F0524D2CF1F00A82DB5 /* MapViewController.swift */; };
 		81746F0924D2CF1F00A82DB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81746F0724D2CF1F00A82DB5 /* Main.storyboard */; };
 		81746F0B24D2CF2000A82DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81746F0A24D2CF2000A82DB5 /* Assets.xcassets */; };
 		81746F0E24D2CF2000A82DB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81746F0C24D2CF2000A82DB5 /* LaunchScreen.storyboard */; };
 		81746F1924D2CF2000A82DB5 /* VictoriaCovidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81746F1824D2CF2000A82DB5 /* VictoriaCovidTests.swift */; };
 		81746F2424D2CF2000A82DB5 /* VictoriaCovidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81746F2324D2CF2000A82DB5 /* VictoriaCovidUITests.swift */; };
+		8175D53124D6CAFF004743D0 /* VicLgaBoundary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8175D53024D6CAFF004743D0 /* VicLgaBoundary.swift */; };
+		8175D53524D6CC0D004743D0 /* LgaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8175D53424D6CC0D004743D0 /* LgaDetail.swift */; };
+		8175D53724D6D0A3004743D0 /* LatLng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8175D53624D6D0A3004743D0 /* LatLng.swift */; };
+		817A457F24D3B0B1005C6655 /* MKMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817A457E24D3B0B1005C6655 /* MKMapView.swift */; };
+		8193506A24D3BD9C004125F9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8193506924D3BD9C004125F9 /* Settings.bundle */; };
+		8193506D24D3D176004125F9 /* Service.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8193506C24D3D176004125F9 /* Service.plist */; };
+		8193506F24D3D2D4004125F9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8193506E24D3D2D4004125F9 /* Service.swift */; };
+		8193507124D3E4C7004125F9 /* ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8193507024D3E4C7004125F9 /* ServiceTests.swift */; };
+		81B7A97024D5A2AC007D9C33 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7A96F24D5A2AC007D9C33 /* MapViewModel.swift */; };
+		81B7A97324D65525007D9C33 /* AFNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7A97224D65525007D9C33 /* AFNetworkClient.swift */; };
+		81C9C61424D4175B00F3476E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9C61324D4175B00F3476E /* Constants.swift */; };
 		8675A1A6A037F022CDC615D8 /* Pods_VictoriaCovid_VictoriaCovidUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EA6978899079E449B5A7A14 /* Pods_VictoriaCovid_VictoriaCovidUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +58,7 @@
 		81746EFE24D2CF1F00A82DB5 /* VictoriaCovid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VictoriaCovid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81746F0124D2CF1F00A82DB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81746F0324D2CF1F00A82DB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		81746F0524D2CF1F00A82DB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81746F0524D2CF1F00A82DB5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		81746F0824D2CF1F00A82DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81746F0A24D2CF2000A82DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81746F0D24D2CF2000A82DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +69,17 @@
 		81746F1F24D2CF2000A82DB5 /* VictoriaCovidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VictoriaCovidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81746F2324D2CF2000A82DB5 /* VictoriaCovidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoriaCovidUITests.swift; sourceTree = "<group>"; };
 		81746F2524D2CF2000A82DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8175D53024D6CAFF004743D0 /* VicLgaBoundary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VicLgaBoundary.swift; sourceTree = "<group>"; };
+		8175D53424D6CC0D004743D0 /* LgaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LgaDetail.swift; sourceTree = "<group>"; };
+		8175D53624D6D0A3004743D0 /* LatLng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatLng.swift; sourceTree = "<group>"; };
+		817A457E24D3B0B1005C6655 /* MKMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapView.swift; sourceTree = "<group>"; };
+		8193506924D3BD9C004125F9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8193506C24D3D176004125F9 /* Service.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Service.plist; sourceTree = "<group>"; };
+		8193506E24D3D2D4004125F9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8193507024D3E4C7004125F9 /* ServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTests.swift; sourceTree = "<group>"; };
+		81B7A96F24D5A2AC007D9C33 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		81B7A97224D65525007D9C33 /* AFNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNetworkClient.swift; sourceTree = "<group>"; };
+		81C9C61324D4175B00F3476E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		875DD6A56CD4714830EB4938 /* Pods-VictoriaCovid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VictoriaCovid.release.xcconfig"; path = "Target Support Files/Pods-VictoriaCovid/Pods-VictoriaCovid.release.xcconfig"; sourceTree = "<group>"; };
 		AA9D7FE67E46C0C68E3C02B5 /* Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig"; path = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9DE49304A4B22CFA713037C /* Pods_VictoriaCovidTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VictoriaCovidTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,9 +148,14 @@
 		81746F0024D2CF1F00A82DB5 /* VictoriaCovid */ = {
 			isa = PBXGroup;
 			children = (
+				8175D52F24D6CADE004743D0 /* Models */,
+				8193506B24D3C165004125F9 /* Helpers */,
+				81B7A97124D654B6007D9C33 /* Network */,
+				81B7A96E24D5A298007D9C33 /* ViewModel */,
+				8176486224D3B27C00789C72 /* Controllers */,
+				817A457D24D3B089005C6655 /* Extensions */,
 				81746F0124D2CF1F00A82DB5 /* AppDelegate.swift */,
 				81746F0324D2CF1F00A82DB5 /* SceneDelegate.swift */,
-				81746F0524D2CF1F00A82DB5 /* ViewController.swift */,
 				81746F0724D2CF1F00A82DB5 /* Main.storyboard */,
 				81746F0A24D2CF2000A82DB5 /* Assets.xcassets */,
 				81746F0C24D2CF2000A82DB5 /* LaunchScreen.storyboard */,
@@ -142,6 +169,7 @@
 			children = (
 				81746F1824D2CF2000A82DB5 /* VictoriaCovidTests.swift */,
 				81746F1A24D2CF2000A82DB5 /* Info.plist */,
+				8193507024D3E4C7004125F9 /* ServiceTests.swift */,
 			);
 			path = VictoriaCovidTests;
 			sourceTree = "<group>";
@@ -155,6 +183,59 @@
 			path = VictoriaCovidUITests;
 			sourceTree = "<group>";
 		};
+		8175D52F24D6CADE004743D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8175D53024D6CAFF004743D0 /* VicLgaBoundary.swift */,
+				8175D53424D6CC0D004743D0 /* LgaDetail.swift */,
+				8175D53624D6D0A3004743D0 /* LatLng.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8176486224D3B27C00789C72 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				81746F0524D2CF1F00A82DB5 /* MapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		817A457D24D3B089005C6655 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				817A457E24D3B0B1005C6655 /* MKMapView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8193506B24D3C165004125F9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8193506924D3BD9C004125F9 /* Settings.bundle */,
+				8193506C24D3D176004125F9 /* Service.plist */,
+				8193506E24D3D2D4004125F9 /* Service.swift */,
+				81C9C61324D4175B00F3476E /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		81B7A96E24D5A298007D9C33 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				81B7A96F24D5A2AC007D9C33 /* MapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		81B7A97124D654B6007D9C33 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				81B7A97224D65525007D9C33 /* AFNetworkClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		AAF5A26881FFAAE89BF7FC44 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +246,6 @@
 				7E801E68BAE2C04C7909DB5C /* Pods-VictoriaCovidTests.debug.xcconfig */,
 				43CF14CDCA426842844B537C /* Pods-VictoriaCovidTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -180,6 +260,8 @@
 				81746EFA24D2CF1F00A82DB5 /* Sources */,
 				81746EFB24D2CF1F00A82DB5 /* Frameworks */,
 				81746EFC24D2CF1F00A82DB5 /* Resources */,
+				81C9C61524D41E9D00F3476E /* ShellScript */,
+				080DD91CC019554AEE650717 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +299,7 @@
 				81746F1B24D2CF2000A82DB5 /* Sources */,
 				81746F1C24D2CF2000A82DB5 /* Frameworks */,
 				81746F1D24D2CF2000A82DB5 /* Resources */,
+				1082E63F509D73F6E5E41BB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -277,7 +360,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				81746F0E24D2CF2000A82DB5 /* LaunchScreen.storyboard in Resources */,
+				8193506A24D3BD9C004125F9 /* Settings.bundle in Resources */,
 				81746F0B24D2CF2000A82DB5 /* Assets.xcassets in Resources */,
+				8193506D24D3D176004125F9 /* Service.plist in Resources */,
 				81746F0924D2CF1F00A82DB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +384,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		080DD91CC019554AEE650717 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VictoriaCovid/Pods-VictoriaCovid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VictoriaCovid/Pods-VictoriaCovid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VictoriaCovid/Pods-VictoriaCovid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1082E63F509D73F6E5E41BB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3860C88D6ABBA79F615D0CF1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -320,6 +439,23 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		81C9C61524D41E9D00F3476E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "BUILD_APP_DIR=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho ${BUILD_APP_DIR}\necho ${CONFIGURATION}\n\nif [ \"$CONFIGURATION\" == \"Release\" ]; then\nrm -rf $BUILD_APP_DIR/Settings.bundle\nfi\n";
 		};
 		88501D3FCCDFFC6301552EBB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -372,9 +508,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81746F0624D2CF1F00A82DB5 /* ViewController.swift in Sources */,
+				81B7A97324D65525007D9C33 /* AFNetworkClient.swift in Sources */,
+				8175D53724D6D0A3004743D0 /* LatLng.swift in Sources */,
+				81746F0624D2CF1F00A82DB5 /* MapViewController.swift in Sources */,
 				81746F0224D2CF1F00A82DB5 /* AppDelegate.swift in Sources */,
+				8175D53524D6CC0D004743D0 /* LgaDetail.swift in Sources */,
+				8193506F24D3D2D4004125F9 /* Service.swift in Sources */,
 				81746F0424D2CF1F00A82DB5 /* SceneDelegate.swift in Sources */,
+				81B7A97024D5A2AC007D9C33 /* MapViewModel.swift in Sources */,
+				817A457F24D3B0B1005C6655 /* MKMapView.swift in Sources */,
+				8175D53124D6CAFF004743D0 /* VicLgaBoundary.swift in Sources */,
+				81C9C61424D4175B00F3476E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +527,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81746F1924D2CF2000A82DB5 /* VictoriaCovidTests.swift in Sources */,
+				8193507124D3E4C7004125F9 /* ServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

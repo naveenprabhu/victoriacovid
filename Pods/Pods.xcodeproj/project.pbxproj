@@ -7,19 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DC7393CC783B73F739E8CF58DC5167A /* Pods-VictoriaCovidTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE738A3A3C78374C436EB69B30EC7BF0 /* Pods-VictoriaCovidTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22F6E49EDF5768B7947341C7322980D4 /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE763871EC633E778943E7EEA5BEE2E9 /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55B014233BFD6E7C06D2734EEAC57D9A /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC0529602E34CF450D56A66D639EA6 /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m */; };
-		64387FC5796C06608A591B678C329C43 /* Pods-VictoriaCovid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9996D0EEBADF13C88E198401ED665900 /* Pods-VictoriaCovid-dummy.m */; };
-		A5CA9B65349C171BCB5C5E84AECFF2EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BCAAF8EB6FEB2FDA4FC1BCB4F333AA3A /* Pods-VictoriaCovidTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3708F11362611C86B94B3CFF9F12557D /* Pods-VictoriaCovidTests-dummy.m */; };
-		C84BB7ADFB5922438D1A758C54DB8EE5 /* Pods-VictoriaCovid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51BDD41304BE28DC90BD3E483098A1B5 /* Pods-VictoriaCovid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDF119E9A84234DE36D69DD1359F2760 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		01BEB06B4E262DCEA7A94F4206311BF9 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2D8C6F89E11A531AD7544C065F4DDC /* UIRefreshControl+AFNetworking.m */; };
+		02937E01710489D6668D0C3700E8EADA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FB51F7DEB07C68843C396B8C44B0FA /* UIProgressView+AFNetworking.m */; };
+		06CCCF1BC401493A2D8719E084E1E2EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		07E08C56386C02093F27CF28E4D01F11 /* WKWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFDF83F2C855F29352862D71100C1B2 /* WKWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08D5C0606D6FBFB4877FC3C3FF4A2208 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B0AF0DE2BD9E6FABC0D47C0DA60320 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DC7393CC783B73F739E8CF58DC5167A /* Pods-VictoriaCovidTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B4E1824F8A792C0B3575FA9DE74B38B /* Pods-VictoriaCovidTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163B07BE98EAA270AF0A7AA82F84208E /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE29478595C35D1DBF6CB2EE1BC11D5 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		232B2E8F32708EF2D85000B997FB69A2 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C226F9AC0ECB3E8ACF768A2FA7B887 /* UIImageView+AFNetworking.m */; };
+		2657AB4F1D04803DABFE7DDF80C0EF7F /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DEE99F9E2A2A3C84E6EEECC8E4735F /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27256E913790A1EC111854E3D10E67F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2AB5C7D99BD529942B2C81AB0CD8A600 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9C8613E3D05DC796E6070524CADD2D /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E7446308877A2FA6F48A7E545FFB1B1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E6CBFBD0305264D5446D381452785B /* AFNetworkReachabilityManager.m */; };
+		326A167B6662D7310FBE80866AE80C5B /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F73D1A353798A1013F00DD8251D10C5 /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38B57953D8705FA2092852071CD3A462 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DD89AB0F81BDA8E59943C89131288 /* UIButton+AFNetworking.m */; };
+		3CA0C9185ED4469D427AA53B26E1B18F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 75ACF33252734108CC44AF5E36AAD396 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB561D79F76C06AA538872D6302D35D /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3600A67B33B1FED00AE88B43D1244F6 /* AFNetworking-dummy.m */; };
+		40426F061CD9B0B435C690CAFEA2BD00 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0587DEB0F48B0C1A8B2789B2897009D7 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4992259A954F174FA8BDB394DB1C8F93 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5D67C4903542379A45E2A9E3AD512A /* AFAutoPurgingImageCache.m */; };
+		4FCA4E8703DBF3D3FB7D5BA06229159D /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D0730868BFD57958E896FE402D758ACB /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		513444F31B0B6608FBBBE4EC80A9474C /* Pods-VictoriaCovid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2985D1C99E3CE1CCCD462D7F0D92A97 /* Pods-VictoriaCovid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE482EF823C5090378A600998A120F9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B93D780D83E013B9CF065117B6ABA80 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		722EC0191A173ECB2121618467D32DF4 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C4036CC2F41439B5F3AA9EDFBA7AF998 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76536A816A576F08FADD3366A2E40094 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 087E14CFD01C52C8F320802FBE1C96AD /* AFURLSessionManager.m */; };
+		828919193B61FC103B8846F54EF3131C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3E2CD3A24ADC744F7D0585EBA2B334 /* AFURLResponseSerialization.m */; };
+		8CE480485EFF2F15B7A394C90CFF274A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C617FE811A91EA69182671BD494E324 /* AFHTTPSessionManager.m */; };
+		8D060BB549FA8C46C8A5E230C7E00CFE /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BEF3ED4DA9B8AAE20161D6B17D9800 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DAF088AD4226FE98DCD16C34F23FFCB /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8DF331893619144059E7460ACC51A8 /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m */; };
+		951B6669114E3C8D2E4961AFE2BB6647 /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 38082307C0751FB7512FD7B4DCE0F0DF /* WKWebView+AFNetworking.m */; };
+		9D3A67B86C6A3A1339783953B3E833B9 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 929EE54BD0D1854BBCCA902B94780F8F /* AFNetworkActivityIndicatorManager.m */; };
+		A6DE5A1B478949FE0444318D47C1A9CC /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */; };
+		A7E6C236F5C97B35484B553454B609B0 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D5F2CEB9B6937C268DB26EEF62978D /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AECFCA2598AABAEB044F6C4594F3222F /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 842F909230AAC675241531ECA8AEE4A5 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3F3A527D01B7B886D05F8CD39195F9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B4658F8495B18BD4EB5D893CAFF3BBBC /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 00751FC3948A1A9F1FFAB649018002D8 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B83B1CA17424975882DA1066536E112B /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B612BD4EE4F3E96EDA4A2251F15EA64A /* AFImageDownloader.m */; };
+		BBFB85B525E1E77FCB19C84D911205D8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FC56CB36A2B53EB55FCDCCDF7A19ACEC /* AFURLRequestSerialization.m */; };
+		BCAAF8EB6FEB2FDA4FC1BCB4F333AA3A /* Pods-VictoriaCovidTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DF38163F124DCBF1BD2DF75377E7DE /* Pods-VictoriaCovidTests-dummy.m */; };
+		BFEC83B95C0040501A3BC35E52D9C4E7 /* Pods-VictoriaCovid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7F3D2CED10D1FE196D7DAB07A19F4E /* Pods-VictoriaCovid-dummy.m */; };
+		C9F701A2E6208D9E840E7A91287F21B9 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 648A80C6763B46492C7A3ACEB109BCE4 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D66716504D475B6377F7DD5C7C2BBCDE /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C5F299CDD4219A0F5A63827D34D2E1 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8EB9F2CFC54AFE86B618DB528647311 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 184C15B942C47068EFDF9A418C8CF769 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F191431A32F803DC12F12EF3B4D984BD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D655AE14CB5B94D33CDF7B47A889FF87 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4352388490E70C1CF187D93E390FB2A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C5AC68C3D65B56B8E58FC9150BE018 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAF0EFE91AEE6F767A15B1F3C1E19BE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FDA522B328C907FBF9B11C64C1A7C624 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9CF71DA91C2758689E5548AFB791C /* UIActivityIndicatorView+AFNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2865F494C1871735E7C5F8017DBF5F1D /* PBXContainerItemProxy */ = {
+		16610DAEC6D10F8C355AB260D625ECF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		B2B620D54BE5DB2588B8B0B4F21B7FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		C8BC3F78A094459726E9A62F3DE53BE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,51 +79,102 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1004F5D918982C5FAEBE308A0BF6FB52 /* Pods-VictoriaCovid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VictoriaCovid.modulemap"; sourceTree = "<group>"; };
-		1571BA9D1B564423E2EF51AC7FF122B1 /* Pods-VictoriaCovid-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovid-Info.plist"; sourceTree = "<group>"; };
-		1DA3E87F89CB77B5763703BCE2C9713B /* Pods-VictoriaCovid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovid.debug.xcconfig"; sourceTree = "<group>"; };
-		272712FCD9140E9BBD76812EF108701A /* Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		00751FC3948A1A9F1FFAB649018002D8 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		0587DEB0F48B0C1A8B2789B2897009D7 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		06C226F9AC0ECB3E8ACF768A2FA7B887 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		07ECA8D004F02071D3E8BD031C2DCAB5 /* Pods-VictoriaCovid-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VictoriaCovid-acknowledgements.markdown"; sourceTree = "<group>"; };
+		087E14CFD01C52C8F320802FBE1C96AD /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		14DEE99F9E2A2A3C84E6EEECC8E4735F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		184C15B942C47068EFDF9A418C8CF769 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		23C5AC68C3D65B56B8E58FC9150BE018 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		26BEF3ED4DA9B8AAE20161D6B17D9800 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		2A3E2CD3A24ADC744F7D0585EBA2B334 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		31FB51F7DEB07C68843C396B8C44B0FA /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34701D5687847941E7518ADA695C69FB /* Pods-VictoriaCovid-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovid-acknowledgements.plist"; sourceTree = "<group>"; };
-		3708F11362611C86B94B3CFF9F12557D /* Pods-VictoriaCovidTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VictoriaCovidTests-dummy.m"; sourceTree = "<group>"; };
-		4561AACE1DB30D36D90442B83EE89F7A /* Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		51098B8981297C8C214F6358DCB894CE /* Pods-VictoriaCovid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovid.release.xcconfig"; sourceTree = "<group>"; };
-		51BDD41304BE28DC90BD3E483098A1B5 /* Pods-VictoriaCovid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VictoriaCovid-umbrella.h"; sourceTree = "<group>"; };
+		37757F8A2AA55AC2FBBA82419EA59281 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		37D5F2CEB9B6937C268DB26EEF62978D /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		38082307C0751FB7512FD7B4DCE0F0DF /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		3B4E1824F8A792C0B3575FA9DE74B38B /* Pods-VictoriaCovidTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VictoriaCovidTests-umbrella.h"; sourceTree = "<group>"; };
+		3D25B0527FE64B763A9FEB86B1E3B7DB /* Pods-VictoriaCovidTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VictoriaCovidTests.modulemap"; sourceTree = "<group>"; };
+		3DC07265902CE85454DA4C435CD47B68 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		432288A68F0560047C1FDF2A052F45DD /* Pods-VictoriaCovid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovid.release.xcconfig"; sourceTree = "<group>"; };
+		494FE87D037151752FE546002C4AD7F0 /* Pods-VictoriaCovid-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VictoriaCovid-frameworks.sh"; sourceTree = "<group>"; };
+		4B93D780D83E013B9CF065117B6ABA80 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		4E1221E9957A7199A6C24FCBCC929184 /* Pods-VictoriaCovidTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovidTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F565BB2D944CD7D910BE10D56C6FF02 /* Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		50E6CBFBD0305264D5446D381452785B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		544D2D9A184D17160B6E717FAC7E8D9F /* Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		55E5E85BF849CE3BA8B6077B361CD245 /* Pods_VictoriaCovid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VictoriaCovid.framework; path = "Pods-VictoriaCovid.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C04488AAA6718A07B4C491F9F72D4E6 /* Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5C9CA39E734C17B53F01C6C1C99FDEB5 /* Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist"; sourceTree = "<group>"; };
-		73CA22963925B251C19497912BDDC695 /* Pods-VictoriaCovidTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovidTests.debug.xcconfig"; sourceTree = "<group>"; };
-		887AFC3498BCE46A0330D430E5B54AF3 /* Pods-VictoriaCovidTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovidTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BCFBE59D0182E7BFE2EB2EB1A02C84F /* Pods-VictoriaCovidTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovidTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D70BEF604498625E944F9862DE9F8CD /* Pods-VictoriaCovid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VictoriaCovid.modulemap"; sourceTree = "<group>"; };
+		648A80C6763B46492C7A3ACEB109BCE4 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		658C3496AF02128209F198BE25E0E486 /* Pods-VictoriaCovid-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovid-Info.plist"; sourceTree = "<group>"; };
+		6B954D1A22AB20EEF7EC9343B1A6B9E2 /* Pods-VictoriaCovid-VictoriaCovidUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VictoriaCovid-VictoriaCovidUITests.modulemap"; sourceTree = "<group>"; };
+		71AF4BD8E6FC4B085A4C42B5C0648739 /* Pods-VictoriaCovid-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovid-acknowledgements.plist"; sourceTree = "<group>"; };
+		75ACF33252734108CC44AF5E36AAD396 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		842F909230AAC675241531ECA8AEE4A5 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		889C1A6269E50AC9BB3E383048EBB8CD /* Pods_VictoriaCovidTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VictoriaCovidTests.framework; path = "Pods-VictoriaCovidTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		897E65071EEBAA18942579C9C6D52471 /* Pods-VictoriaCovidTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovidTests.release.xcconfig"; sourceTree = "<group>"; };
+		89E909443A20B13103B8D2B89E899297 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		8B30B7CF7B507014D5A666DC6CF555A6 /* Pods_VictoriaCovid_VictoriaCovidUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VictoriaCovid_VictoriaCovidUITests.framework; path = "Pods-VictoriaCovid-VictoriaCovidUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9996D0EEBADF13C88E198401ED665900 /* Pods-VictoriaCovid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VictoriaCovid-dummy.m"; sourceTree = "<group>"; };
+		8B9E383A054E7E1C274AF007FD183F8D /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		8E2DD89AB0F81BDA8E59943C89131288 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		8EE29478595C35D1DBF6CB2EE1BC11D5 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		912E68B7FE20D5C7CC741805F9FAFD02 /* Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		929EE54BD0D1854BBCCA902B94780F8F /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		9C617FE811A91EA69182671BD494E324 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		9D63ECE06DCA902AB8D8C594FB3CCC31 /* Pods-VictoriaCovidTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovidTests-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A931CADB0B45F95E58B1038713A0E753 /* Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig"; sourceTree = "<group>"; };
-		AB577AC957A8D348F01FE6D078FF9F2F /* Pods-VictoriaCovidTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovidTests-Info.plist"; sourceTree = "<group>"; };
-		BF72AB19DE219663A3FE048DFF21847D /* Pods-VictoriaCovid-VictoriaCovidUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VictoriaCovid-VictoriaCovidUITests.modulemap"; sourceTree = "<group>"; };
-		C4B8E13F03AFFFCEB4837BB97BCACD45 /* Pods-VictoriaCovidTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VictoriaCovidTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CE738A3A3C78374C436EB69B30EC7BF0 /* Pods-VictoriaCovidTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VictoriaCovidTests-umbrella.h"; sourceTree = "<group>"; };
-		DCB968DE0A5E5EAFDE3609EAFB26073D /* Pods-VictoriaCovidTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VictoriaCovidTests.modulemap"; sourceTree = "<group>"; };
-		DE763871EC633E778943E7EEA5BEE2E9 /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h"; sourceTree = "<group>"; };
-		E60E04AD5C06444C300C33D8A2945A63 /* Pods-VictoriaCovid-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VictoriaCovid-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E8FC0529602E34CF450D56A66D639EA6 /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m"; sourceTree = "<group>"; };
-		ECA9B074989399E3B7F8CC0663F2A60A /* Pods-VictoriaCovidTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovidTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F73D1A353798A1013F00DD8251D10C5 /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h"; sourceTree = "<group>"; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B0AF0DE2BD9E6FABC0D47C0DA60320 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		B0597FFDD54BACFFFE871A8BD749E052 /* Pods-VictoriaCovidTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VictoriaCovidTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B28826A08BB03EAAFA9292F35DF316CD /* Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4D9CF71DA91C2758689E5548AFB791C /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		B612BD4EE4F3E96EDA4A2251F15EA64A /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		B6AAACA6D29BE80477D78001BA71FF18 /* Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist"; sourceTree = "<group>"; };
+		BF9C8613E3D05DC796E6070524CADD2D /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		C3600A67B33B1FED00AE88B43D1244F6 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		C4036CC2F41439B5F3AA9EDFBA7AF998 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		CA8DF331893619144059E7460ACC51A8 /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m"; sourceTree = "<group>"; };
+		CB2D8C6F89E11A531AD7544C065F4DDC /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		CBFDF83F2C855F29352862D71100C1B2 /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		D0730868BFD57958E896FE402D758ACB /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		D2985D1C99E3CE1CCCD462D7F0D92A97 /* Pods-VictoriaCovid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VictoriaCovid-umbrella.h"; sourceTree = "<group>"; };
+		D4DF38163F124DCBF1BD2DF75377E7DE /* Pods-VictoriaCovidTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VictoriaCovidTests-dummy.m"; sourceTree = "<group>"; };
+		D655AE14CB5B94D33CDF7B47A889FF87 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		DF7F3D2CED10D1FE196D7DAB07A19F4E /* Pods-VictoriaCovid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VictoriaCovid-dummy.m"; sourceTree = "<group>"; };
+		E0C5F299CDD4219A0F5A63827D34D2E1 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		E36B38DF2A3DC6A9254634C4EB8DF0CB /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
+		E5CEC628738102FD74B452DA7BD6C802 /* Pods-VictoriaCovid-VictoriaCovidUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VictoriaCovid-VictoriaCovidUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E7ED67F23E1441A1D717781461E20192 /* Pods-VictoriaCovid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VictoriaCovid.debug.xcconfig"; sourceTree = "<group>"; };
+		FC56CB36A2B53EB55FCDCCDF7A19ACEC /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		FC5D67C4903542379A45E2A9E3AD512A /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		643998273AA74EFBE9146E3696BBCAE9 /* Frameworks */ = {
+		01E52077C4F12B697AC01E0521970729 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF119E9A84234DE36D69DD1359F2760 /* Foundation.framework in Frameworks */,
+				B3F3A527D01B7B886D05F8CD39195F9A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB96B7E505FA5253BF68A0397B94609F /* Frameworks */ = {
+		78BFC6236AD230B28105CBBFAF8178A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CA9B65349C171BCB5C5E84AECFF2EF /* Foundation.framework in Frameworks */,
+				06CCCF1BC401493A2D8719E084E1E2EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9BCCCF510F65077210B8D9944565EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27256E913790A1EC111854E3D10E67F5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,36 +189,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01C2582FDD580B01995BBE9B61E57D6F /* Pods-VictoriaCovidTests */ = {
+		09410C77D811DDFF2218266C7A4D123E /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				DCB968DE0A5E5EAFDE3609EAFB26073D /* Pods-VictoriaCovidTests.modulemap */,
-				C4B8E13F03AFFFCEB4837BB97BCACD45 /* Pods-VictoriaCovidTests-acknowledgements.markdown */,
-				887AFC3498BCE46A0330D430E5B54AF3 /* Pods-VictoriaCovidTests-acknowledgements.plist */,
-				3708F11362611C86B94B3CFF9F12557D /* Pods-VictoriaCovidTests-dummy.m */,
-				AB577AC957A8D348F01FE6D078FF9F2F /* Pods-VictoriaCovidTests-Info.plist */,
-				CE738A3A3C78374C436EB69B30EC7BF0 /* Pods-VictoriaCovidTests-umbrella.h */,
-				73CA22963925B251C19497912BDDC695 /* Pods-VictoriaCovidTests.debug.xcconfig */,
-				ECA9B074989399E3B7F8CC0663F2A60A /* Pods-VictoriaCovidTests.release.xcconfig */,
+				842F909230AAC675241531ECA8AEE4A5 /* AFSecurityPolicy.h */,
+				536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		13537724E1B0076A304EAA97DE8BFD6A /* Pods-VictoriaCovidTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D25B0527FE64B763A9FEB86B1E3B7DB /* Pods-VictoriaCovidTests.modulemap */,
+				B0597FFDD54BACFFFE871A8BD749E052 /* Pods-VictoriaCovidTests-acknowledgements.markdown */,
+				5BCFBE59D0182E7BFE2EB2EB1A02C84F /* Pods-VictoriaCovidTests-acknowledgements.plist */,
+				D4DF38163F124DCBF1BD2DF75377E7DE /* Pods-VictoriaCovidTests-dummy.m */,
+				9D63ECE06DCA902AB8D8C594FB3CCC31 /* Pods-VictoriaCovidTests-Info.plist */,
+				3B4E1824F8A792C0B3575FA9DE74B38B /* Pods-VictoriaCovidTests-umbrella.h */,
+				4E1221E9957A7199A6C24FCBCC929184 /* Pods-VictoriaCovidTests.debug.xcconfig */,
+				897E65071EEBAA18942579C9C6D52471 /* Pods-VictoriaCovidTests.release.xcconfig */,
 			);
 			name = "Pods-VictoriaCovidTests";
 			path = "Target Support Files/Pods-VictoriaCovidTests";
 			sourceTree = "<group>";
 		};
-		206A360112083ED37433A664CF31BEAA /* Pods-VictoriaCovid */ = {
+		143C6116BD5B90C38B61DAD3FBF7D470 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1004F5D918982C5FAEBE308A0BF6FB52 /* Pods-VictoriaCovid.modulemap */,
-				E60E04AD5C06444C300C33D8A2945A63 /* Pods-VictoriaCovid-acknowledgements.markdown */,
-				34701D5687847941E7518ADA695C69FB /* Pods-VictoriaCovid-acknowledgements.plist */,
-				9996D0EEBADF13C88E198401ED665900 /* Pods-VictoriaCovid-dummy.m */,
-				1571BA9D1B564423E2EF51AC7FF122B1 /* Pods-VictoriaCovid-Info.plist */,
-				51BDD41304BE28DC90BD3E483098A1B5 /* Pods-VictoriaCovid-umbrella.h */,
-				1DA3E87F89CB77B5763703BCE2C9713B /* Pods-VictoriaCovid.debug.xcconfig */,
-				51098B8981297C8C214F6358DCB894CE /* Pods-VictoriaCovid.release.xcconfig */,
+				4FB234AD5146A73884BDB38AD03891BA /* Pods-VictoriaCovid */,
+				59B18031109EEAED74382CEF44114103 /* Pods-VictoriaCovid-VictoriaCovidUITests */,
+				13537724E1B0076A304EAA97DE8BFD6A /* Pods-VictoriaCovidTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1CD2E58BFA94F98B90F9942547BB7005 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B9E383A054E7E1C274AF007FD183F8D /* AFNetworking.modulemap */,
+				C3600A67B33B1FED00AE88B43D1244F6 /* AFNetworking-dummy.m */,
+				89E909443A20B13103B8D2B89E899297 /* AFNetworking-Info.plist */,
+				3DC07265902CE85454DA4C435CD47B68 /* AFNetworking-prefix.pch */,
+				A5B0AF0DE2BD9E6FABC0D47C0DA60320 /* AFNetworking-umbrella.h */,
+				37757F8A2AA55AC2FBBA82419EA59281 /* AFNetworking.debug.xcconfig */,
+				E36B38DF2A3DC6A9254634C4EB8DF0CB /* AFNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		4FB234AD5146A73884BDB38AD03891BA /* Pods-VictoriaCovid */ = {
+			isa = PBXGroup;
+			children = (
+				5D70BEF604498625E944F9862DE9F8CD /* Pods-VictoriaCovid.modulemap */,
+				07ECA8D004F02071D3E8BD031C2DCAB5 /* Pods-VictoriaCovid-acknowledgements.markdown */,
+				71AF4BD8E6FC4B085A4C42B5C0648739 /* Pods-VictoriaCovid-acknowledgements.plist */,
+				DF7F3D2CED10D1FE196D7DAB07A19F4E /* Pods-VictoriaCovid-dummy.m */,
+				494FE87D037151752FE546002C4AD7F0 /* Pods-VictoriaCovid-frameworks.sh */,
+				658C3496AF02128209F198BE25E0E486 /* Pods-VictoriaCovid-Info.plist */,
+				D2985D1C99E3CE1CCCD462D7F0D92A97 /* Pods-VictoriaCovid-umbrella.h */,
+				E7ED67F23E1441A1D717781461E20192 /* Pods-VictoriaCovid.debug.xcconfig */,
+				432288A68F0560047C1FDF2A052F45DD /* Pods-VictoriaCovid.release.xcconfig */,
 			);
 			name = "Pods-VictoriaCovid";
 			path = "Target Support Files/Pods-VictoriaCovid";
+			sourceTree = "<group>";
+		};
+		59B18031109EEAED74382CEF44114103 /* Pods-VictoriaCovid-VictoriaCovidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B954D1A22AB20EEF7EC9343B1A6B9E2 /* Pods-VictoriaCovid-VictoriaCovidUITests.modulemap */,
+				544D2D9A184D17160B6E717FAC7E8D9F /* Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.markdown */,
+				912E68B7FE20D5C7CC741805F9FAFD02 /* Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.plist */,
+				CA8DF331893619144059E7460ACC51A8 /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m */,
+				E5CEC628738102FD74B452DA7BD6C802 /* Pods-VictoriaCovid-VictoriaCovidUITests-frameworks.sh */,
+				B6AAACA6D29BE80477D78001BA71FF18 /* Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist */,
+				9F73D1A353798A1013F00DD8251D10C5 /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h */,
+				4F565BB2D944CD7D910BE10D56C6FF02 /* Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig */,
+				B28826A08BB03EAAFA9292F35DF316CD /* Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig */,
+			);
+			name = "Pods-VictoriaCovid-VictoriaCovidUITests";
+			path = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests";
+			sourceTree = "<group>";
+		};
+		7F9C13824D39A08118211E51F369F300 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				8EE29478595C35D1DBF6CB2EE1BC11D5 /* AFNetworkReachabilityManager.h */,
+				50E6CBFBD0305264D5446D381452785B /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		99D5CE518789123385F411168C77CE8E /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				23C5AC68C3D65B56B8E58FC9150BE018 /* AFCompatibilityMacros.h */,
+				648A80C6763B46492C7A3ACEB109BCE4 /* AFHTTPSessionManager.h */,
+				9C617FE811A91EA69182671BD494E324 /* AFHTTPSessionManager.m */,
+				37D5F2CEB9B6937C268DB26EEF62978D /* AFURLSessionManager.h */,
+				087E14CFD01C52C8F320802FBE1C96AD /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		B580EA7CF70EB35BD42257A17D958932 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7B0C907F31D1F1746138475CA9C1023 /* AFNetworking */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -128,13 +310,40 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CC3001599D15ADC8E41FD8F3ABAFC81B /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4B93D780D83E013B9CF065117B6ABA80 /* AFAutoPurgingImageCache.h */,
+				FC5D67C4903542379A45E2A9E3AD512A /* AFAutoPurgingImageCache.m */,
+				00751FC3948A1A9F1FFAB649018002D8 /* AFImageDownloader.h */,
+				B612BD4EE4F3E96EDA4A2251F15EA64A /* AFImageDownloader.m */,
+				C4036CC2F41439B5F3AA9EDFBA7AF998 /* AFNetworkActivityIndicatorManager.h */,
+				929EE54BD0D1854BBCCA902B94780F8F /* AFNetworkActivityIndicatorManager.m */,
+				184C15B942C47068EFDF9A418C8CF769 /* UIActivityIndicatorView+AFNetworking.h */,
+				B4D9CF71DA91C2758689E5548AFB791C /* UIActivityIndicatorView+AFNetworking.m */,
+				0587DEB0F48B0C1A8B2789B2897009D7 /* UIButton+AFNetworking.h */,
+				8E2DD89AB0F81BDA8E59943C89131288 /* UIButton+AFNetworking.m */,
+				D655AE14CB5B94D33CDF7B47A889FF87 /* UIImageView+AFNetworking.h */,
+				06C226F9AC0ECB3E8ACF768A2FA7B887 /* UIImageView+AFNetworking.m */,
+				D0730868BFD57958E896FE402D758ACB /* UIKit+AFNetworking.h */,
+				75ACF33252734108CC44AF5E36AAD396 /* UIProgressView+AFNetworking.h */,
+				31FB51F7DEB07C68843C396B8C44B0FA /* UIProgressView+AFNetworking.m */,
+				BF9C8613E3D05DC796E6070524CADD2D /* UIRefreshControl+AFNetworking.h */,
+				CB2D8C6F89E11A531AD7544C065F4DDC /* UIRefreshControl+AFNetworking.m */,
+				CBFDF83F2C855F29352862D71100C1B2 /* WKWebView+AFNetworking.h */,
+				38082307C0751FB7512FD7B4DCE0F0DF /* WKWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DAB2C648B811DFFFADBA2896A3353E39 /* Products */,
-				DD0649DB08D569358B95E58FB976C8D9 /* Targets Support Files */,
+				B580EA7CF70EB35BD42257A17D958932 /* Pods */,
+				DEACA615EB61096A4921855A89F2F4EC /* Products */,
+				143C6116BD5B90C38B61DAD3FBF7D470 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,9 +355,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DAB2C648B811DFFFADBA2896A3353E39 /* Products */ = {
+		D2BA36260276DBFBF62BA2794B4EAC4C /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
+				14DEE99F9E2A2A3C84E6EEECC8E4735F /* AFURLRequestSerialization.h */,
+				FC56CB36A2B53EB55FCDCCDF7A19ACEC /* AFURLRequestSerialization.m */,
+				26BEF3ED4DA9B8AAE20161D6B17D9800 /* AFURLResponseSerialization.h */,
+				2A3E2CD3A24ADC744F7D0585EBA2B334 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		DEACA615EB61096A4921855A89F2F4EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
 				55E5E85BF849CE3BA8B6077B361CD245 /* Pods_VictoriaCovid.framework */,
 				8B30B7CF7B507014D5A666DC6CF555A6 /* Pods_VictoriaCovid_VictoriaCovidUITests.framework */,
 				889C1A6269E50AC9BB3E383048EBB8CD /* Pods_VictoriaCovidTests.framework */,
@@ -156,51 +377,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD0649DB08D569358B95E58FB976C8D9 /* Targets Support Files */ = {
+		F7B0C907F31D1F1746138475CA9C1023 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				206A360112083ED37433A664CF31BEAA /* Pods-VictoriaCovid */,
-				F7D982D84AD38098313DA9F2D9AB5F23 /* Pods-VictoriaCovid-VictoriaCovidUITests */,
-				01C2582FDD580B01995BBE9B61E57D6F /* Pods-VictoriaCovidTests */,
+				E0C5F299CDD4219A0F5A63827D34D2E1 /* AFNetworking.h */,
+				99D5CE518789123385F411168C77CE8E /* NSURLSession */,
+				7F9C13824D39A08118211E51F369F300 /* Reachability */,
+				09410C77D811DDFF2218266C7A4D123E /* Security */,
+				D2BA36260276DBFBF62BA2794B4EAC4C /* Serialization */,
+				1CD2E58BFA94F98B90F9942547BB7005 /* Support Files */,
+				CC3001599D15ADC8E41FD8F3ABAFC81B /* UIKit */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F7D982D84AD38098313DA9F2D9AB5F23 /* Pods-VictoriaCovid-VictoriaCovidUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BF72AB19DE219663A3FE048DFF21847D /* Pods-VictoriaCovid-VictoriaCovidUITests.modulemap */,
-				5C04488AAA6718A07B4C491F9F72D4E6 /* Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.markdown */,
-				4561AACE1DB30D36D90442B83EE89F7A /* Pods-VictoriaCovid-VictoriaCovidUITests-acknowledgements.plist */,
-				E8FC0529602E34CF450D56A66D639EA6 /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m */,
-				5C9CA39E734C17B53F01C6C1C99FDEB5 /* Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist */,
-				DE763871EC633E778943E7EEA5BEE2E9 /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h */,
-				272712FCD9140E9BBD76812EF108701A /* Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig */,
-				A931CADB0B45F95E58B1038713A0E753 /* Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig */,
-			);
-			name = "Pods-VictoriaCovid-VictoriaCovidUITests";
-			path = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests";
+			name = AFNetworking;
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0548B9875EE02099A49D8ADE38FE5C6C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C84BB7ADFB5922438D1A758C54DB8EE5 /* Pods-VictoriaCovid-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		304BFE9F1C8738F6984575C10B7AF0D1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22F6E49EDF5768B7947341C7322980D4 /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		47546ACA6FC0C4AFBD62AAFD24CC5AFF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,21 +403,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CC0D425BE9BBEC8DB8593E87EDFE377 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513444F31B0B6608FBBBE4EC80A9474C /* Pods-VictoriaCovid-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9ECBAE3144164158FDC62D90C3CEFDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE482EF823C5090378A600998A120F9 /* AFAutoPurgingImageCache.h in Headers */,
+				F4352388490E70C1CF187D93E390FB2A /* AFCompatibilityMacros.h in Headers */,
+				C9F701A2E6208D9E840E7A91287F21B9 /* AFHTTPSessionManager.h in Headers */,
+				B4658F8495B18BD4EB5D893CAFF3BBBC /* AFImageDownloader.h in Headers */,
+				722EC0191A173ECB2121618467D32DF4 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				08D5C0606D6FBFB4877FC3C3FF4A2208 /* AFNetworking-umbrella.h in Headers */,
+				D66716504D475B6377F7DD5C7C2BBCDE /* AFNetworking.h in Headers */,
+				163B07BE98EAA270AF0A7AA82F84208E /* AFNetworkReachabilityManager.h in Headers */,
+				AECFCA2598AABAEB044F6C4594F3222F /* AFSecurityPolicy.h in Headers */,
+				2657AB4F1D04803DABFE7DDF80C0EF7F /* AFURLRequestSerialization.h in Headers */,
+				8D060BB549FA8C46C8A5E230C7E00CFE /* AFURLResponseSerialization.h in Headers */,
+				A7E6C236F5C97B35484B553454B609B0 /* AFURLSessionManager.h in Headers */,
+				E8EB9F2CFC54AFE86B618DB528647311 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				40426F061CD9B0B435C690CAFEA2BD00 /* UIButton+AFNetworking.h in Headers */,
+				F191431A32F803DC12F12EF3B4D984BD /* UIImageView+AFNetworking.h in Headers */,
+				4FCA4E8703DBF3D3FB7D5BA06229159D /* UIKit+AFNetworking.h in Headers */,
+				3CA0C9185ED4469D427AA53B26E1B18F /* UIProgressView+AFNetworking.h in Headers */,
+				2AB5C7D99BD529942B2C81AB0CD8A600 /* UIRefreshControl+AFNetworking.h in Headers */,
+				07E08C56386C02093F27CF28E4D01F11 /* WKWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4550DD925835BA40D42253F0D933B6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326A167B6662D7310FBE80866AE80C5B /* Pods-VictoriaCovid-VictoriaCovidUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		17F5A8AFB774405B4E838727188755A3 /* Pods-VictoriaCovid */ = {
+		0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27632E603CC53C1FF79459C5E7F5076A /* Build configuration list for PBXNativeTarget "Pods-VictoriaCovid" */;
+			buildConfigurationList = D4A4B40CB38ADC88749D1E1C8A945364 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
 			buildPhases = (
-				0548B9875EE02099A49D8ADE38FE5C6C /* Headers */,
-				E65D75C6AAE662C0F8C3D8D871DBDDC8 /* Sources */,
-				BB96B7E505FA5253BF68A0397B94609F /* Frameworks */,
-				005A92155A73C117040095D4F911AACC /* Resources */,
+				B9ECBAE3144164158FDC62D90C3CEFDB /* Headers */,
+				6F66130117A5CA2EFE69F1739F512499 /* Sources */,
+				8F9BCCCF510F65077210B8D9944565EC /* Frameworks */,
+				5AAFF4E9A7FD5CC955CC94BDE27FBA95 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		17F5A8AFB774405B4E838727188755A3 /* Pods-VictoriaCovid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86BACF691585BD58088B0597833C674C /* Build configuration list for PBXNativeTarget "Pods-VictoriaCovid" */;
+			buildPhases = (
+				5CC0D425BE9BBEC8DB8593E87EDFE377 /* Headers */,
+				CE25F96FF1A3526D4CDB23FF7E573A59 /* Sources */,
+				78BFC6236AD230B28105CBBFAF8178A0 /* Frameworks */,
+				840BA653647BE2361D62674F65CE28C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C84DDDC5D46C2D2C3B151924904AB17E /* PBXTargetDependency */,
 			);
 			name = "Pods-VictoriaCovid";
 			productName = "Pods-VictoriaCovid";
@@ -242,7 +497,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D33412EEDB2C8ED4F4139D2999107D1B /* PBXTargetDependency */,
+				D6493DBC57FF4592C1A4A9DBA8D7BD21 /* PBXTargetDependency */,
 			);
 			name = "Pods-VictoriaCovidTests";
 			productName = "Pods-VictoriaCovidTests";
@@ -251,16 +506,17 @@
 		};
 		F9C3E1CD06AFA8573FA20D797BAC78E9 /* Pods-VictoriaCovid-VictoriaCovidUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D53C109D3680C6227E3053B8B0900FCD /* Build configuration list for PBXNativeTarget "Pods-VictoriaCovid-VictoriaCovidUITests" */;
+			buildConfigurationList = F05F047DBDF0531E1EB2DBEDD078C7C6 /* Build configuration list for PBXNativeTarget "Pods-VictoriaCovid-VictoriaCovidUITests" */;
 			buildPhases = (
-				304BFE9F1C8738F6984575C10B7AF0D1 /* Headers */,
-				6E2220345A81C74D9904F95E4CB33CF8 /* Sources */,
-				643998273AA74EFBE9146E3696BBCAE9 /* Frameworks */,
-				A6E7DC12523474FAF8D8984A22B74CAC /* Resources */,
+				E4550DD925835BA40D42253F0D933B6D /* Headers */,
+				BDA49CD74497836935143E45AB66BC7D /* Sources */,
+				01E52077C4F12B697AC01E0521970729 /* Frameworks */,
+				65DB7CF96E3216D5F6CF2BAD2E96DB48 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				44976FA43827E745CD6012C57F915C7F /* PBXTargetDependency */,
 			);
 			name = "Pods-VictoriaCovid-VictoriaCovidUITests";
 			productName = "Pods-VictoriaCovid-VictoriaCovidUITests";
@@ -285,10 +541,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DAB2C648B811DFFFADBA2896A3353E39 /* Products */;
+			productRefGroup = DEACA615EB61096A4921855A89F2F4EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */,
 				17F5A8AFB774405B4E838727188755A3 /* Pods-VictoriaCovid */,
 				F9C3E1CD06AFA8573FA20D797BAC78E9 /* Pods-VictoriaCovid-VictoriaCovidUITests */,
 				7E1C46DA27BD3C09599FCF47160FB6E5 /* Pods-VictoriaCovidTests */,
@@ -297,13 +554,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		005A92155A73C117040095D4F911AACC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1691BD43575AD1047A24931DF52E0D58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,7 +561,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6E7DC12523474FAF8D8984A22B74CAC /* Resources */ = {
+		5AAFF4E9A7FD5CC955CC94BDE27FBA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DB7CF96E3216D5F6CF2BAD2E96DB48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840BA653647BE2361D62674F65CE28C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,11 +585,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6E2220345A81C74D9904F95E4CB33CF8 /* Sources */ = {
+		6F66130117A5CA2EFE69F1739F512499 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55B014233BFD6E7C06D2734EEAC57D9A /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m in Sources */,
+				4992259A954F174FA8BDB394DB1C8F93 /* AFAutoPurgingImageCache.m in Sources */,
+				8CE480485EFF2F15B7A394C90CFF274A /* AFHTTPSessionManager.m in Sources */,
+				B83B1CA17424975882DA1066536E112B /* AFImageDownloader.m in Sources */,
+				9D3A67B86C6A3A1339783953B3E833B9 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				3EB561D79F76C06AA538872D6302D35D /* AFNetworking-dummy.m in Sources */,
+				2E7446308877A2FA6F48A7E545FFB1B1 /* AFNetworkReachabilityManager.m in Sources */,
+				A6DE5A1B478949FE0444318D47C1A9CC /* AFSecurityPolicy.m in Sources */,
+				BBFB85B525E1E77FCB19C84D911205D8 /* AFURLRequestSerialization.m in Sources */,
+				828919193B61FC103B8846F54EF3131C /* AFURLResponseSerialization.m in Sources */,
+				76536A816A576F08FADD3366A2E40094 /* AFURLSessionManager.m in Sources */,
+				FDA522B328C907FBF9B11C64C1A7C624 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				38B57953D8705FA2092852071CD3A462 /* UIButton+AFNetworking.m in Sources */,
+				232B2E8F32708EF2D85000B997FB69A2 /* UIImageView+AFNetworking.m in Sources */,
+				02937E01710489D6668D0C3700E8EADA /* UIProgressView+AFNetworking.m in Sources */,
+				01BEB06B4E262DCEA7A94F4206311BF9 /* UIRefreshControl+AFNetworking.m in Sources */,
+				951B6669114E3C8D2E4961AFE2BB6647 /* WKWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA49CD74497836935143E45AB66BC7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAF088AD4226FE98DCD16C34F23FFCB /* Pods-VictoriaCovid-VictoriaCovidUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,22 +624,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E65D75C6AAE662C0F8C3D8D871DBDDC8 /* Sources */ = {
+		CE25F96FF1A3526D4CDB23FF7E573A59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64387FC5796C06608A591B678C329C43 /* Pods-VictoriaCovid-dummy.m in Sources */,
+				BFEC83B95C0040501A3BC35E52D9C4E7 /* Pods-VictoriaCovid-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D33412EEDB2C8ED4F4139D2999107D1B /* PBXTargetDependency */ = {
+		44976FA43827E745CD6012C57F915C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 16610DAEC6D10F8C355AB260D625ECF5 /* PBXContainerItemProxy */;
+		};
+		C84DDDC5D46C2D2C3B151924904AB17E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = B2B620D54BE5DB2588B8B0B4F21B7FA5 /* PBXContainerItemProxy */;
+		};
+		D6493DBC57FF4592C1A4A9DBA8D7BD21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-VictoriaCovid";
 			target = 17F5A8AFB774405B4E838727188755A3 /* Pods-VictoriaCovid */;
-			targetProxy = 2865F494C1871735E7C5F8017DBF5F1D /* PBXContainerItemProxy */;
+			targetProxy = C8BC3F78A094459726E9A62F3DE53BE5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -421,9 +720,9 @@
 			};
 			name = Debug;
 		};
-		3B75AE5503DA6FE2780EB0DE6AE887AA /* Debug */ = {
+		43B0047E1537D7DE57E1A8909080EBFC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DA3E87F89CB77B5763703BCE2C9713B /* Pods-VictoriaCovid.debug.xcconfig */;
+			baseConfigurationReference = E7ED67F23E1441A1D717781461E20192 /* Pods-VictoriaCovid.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -461,7 +760,7 @@
 		};
 		4D2758F66F55708B4F100307BDA4713C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECA9B074989399E3B7F8CC0663F2A60A /* Pods-VictoriaCovidTests.release.xcconfig */;
+			baseConfigurationReference = 897E65071EEBAA18942579C9C6D52471 /* Pods-VictoriaCovidTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -497,83 +796,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		5CBA76D16589A5D24447844E0025ACBB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A931CADB0B45F95E58B1038713A0E753 /* Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		69D49F19D15EDA666AD9B5441C6D1435 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 272712FCD9140E9BBD76812EF108701A /* Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		871B6E28ABA34DAE69824AB9D22D3B7D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -635,9 +857,44 @@
 			};
 			name = Release;
 		};
+		976AE85EDB1F4A00F208EB2FB0B5EEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37757F8A2AA55AC2FBBA82419EA59281 /* AFNetworking.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9F69FD7DCC931FB4C52C06266465A83C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73CA22963925B251C19497912BDDC695 /* Pods-VictoriaCovidTests.debug.xcconfig */;
+			baseConfigurationReference = 4E1221E9957A7199A6C24FCBCC929184 /* Pods-VictoriaCovidTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -673,9 +930,122 @@
 			};
 			name = Debug;
 		};
-		A5BC93670A815976CE29AF254615AF7B /* Release */ = {
+		A56FE1F1952D0C431D294A787886EAD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51098B8981297C8C214F6358DCB894CE /* Pods-VictoriaCovid.release.xcconfig */;
+			baseConfigurationReference = 4F565BB2D944CD7D910BE10D56C6FF02 /* Pods-VictoriaCovid-VictoriaCovidUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B516657C930BC3085EE627ABE74CD048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36B38DF2A3DC6A9254634C4EB8DF0CB /* AFNetworking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C36305EF09E5C078EDBA9E855E243393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B28826A08BB03EAAFA9292F35DF316CD /* Pods-VictoriaCovid-VictoriaCovidUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VictoriaCovid-VictoriaCovidUITests/Pods-VictoriaCovid-VictoriaCovidUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAC2A7BFBB37BA6D6147D24C02E1ECF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432288A68F0560047C1FDF2A052F45DD /* Pods-VictoriaCovid.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -715,15 +1085,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27632E603CC53C1FF79459C5E7F5076A /* Build configuration list for PBXNativeTarget "Pods-VictoriaCovid" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B75AE5503DA6FE2780EB0DE6AE887AA /* Debug */,
-				A5BC93670A815976CE29AF254615AF7B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -742,11 +1103,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D53C109D3680C6227E3053B8B0900FCD /* Build configuration list for PBXNativeTarget "Pods-VictoriaCovid-VictoriaCovidUITests" */ = {
+		86BACF691585BD58088B0597833C674C /* Build configuration list for PBXNativeTarget "Pods-VictoriaCovid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69D49F19D15EDA666AD9B5441C6D1435 /* Debug */,
-				5CBA76D16589A5D24447844E0025ACBB /* Release */,
+				43B0047E1537D7DE57E1A8909080EBFC /* Debug */,
+				FAC2A7BFBB37BA6D6147D24C02E1ECF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A4B40CB38ADC88749D1E1C8A945364 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976AE85EDB1F4A00F208EB2FB0B5EEEA /* Debug */,
+				B516657C930BC3085EE627ABE74CD048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F05F047DBDF0531E1EB2DBEDD078C7C6 /* Build configuration list for PBXNativeTarget "Pods-VictoriaCovid-VictoriaCovidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56FE1F1952D0C431D294A787886EAD9 /* Debug */,
+				C36305EF09E5C078EDBA9E855E243393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
